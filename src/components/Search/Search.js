@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./search.css";
 
 const Search = ({ onSubmit }) => {
   const [search, setSearch] = useState("");
@@ -23,7 +24,7 @@ const Search = ({ onSubmit }) => {
         type="text"
         value={search}
         onChange={handleInput}
-        placeholder="Search for favorite movie"
+        placeholder="Search for a movie"
       />
       <input type="submit" value="search" onClick={handleSearch} />
     </form>

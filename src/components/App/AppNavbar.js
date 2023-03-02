@@ -4,7 +4,7 @@ import AppNavbarTabs from "./AppNavbarTabs";
 
 const AppNavbar = () => {
   return (
-    <div className="navbar">
+    <div className="navbar" style={{ display: "flex" }}>
       <img src={MovieImg} alt="Movie logo" />
       <AppNavbarTabs />
     </div>

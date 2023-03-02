@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const AppNavbarTab = ({ value }) => {
   return (
     <Link to={value === "home" ? "/" : value}>
-      <h2>{value}</h2>
+      <h2 style={{ color: "white", paddingLeft: "1rem" }}>{value}</h2>
     </Link>
   );
 };

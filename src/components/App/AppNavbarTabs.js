@@ -3,7 +3,7 @@ import AppNavbarTab from "./AppNavbarTab";
 
 const AppNavbarTabs = () => {
   return (
-    <div>
+    <div style={{ display: "block" }}>
       <AppNavbarTab value={"home"} />
       <AppNavbarTab value={"about"} />
     </div>
